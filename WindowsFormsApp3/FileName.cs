@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using WindowsFormsApp3;
 
 namespace GoldenSectionMinimization
 {
@@ -10,7 +11,7 @@ namespace GoldenSectionMinimization
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm()); // Здесь MainForm - ваша главная форма
+            Application.Run(new Method()); // Здесь MainForm - ваша главная форма
         }
     }
 }

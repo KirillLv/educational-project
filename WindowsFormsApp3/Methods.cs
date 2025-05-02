@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GoldenSectionMinimization;
 
 namespace WindowsFormsApp3
 {
@@ -15,6 +16,13 @@ namespace WindowsFormsApp3
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm goldenSectionForm = new MainForm();
+            goldenSectionForm.Show();
+            this.Hide(); // Скрываем текущую форму
         }
     }
 }
